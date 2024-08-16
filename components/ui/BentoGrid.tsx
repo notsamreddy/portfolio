@@ -93,7 +93,11 @@ export const BentoGridItem = ({
           )}
         </div>
         {id === 6 && (
-          <BackgroundGradientAnimation className="absolute z-50 flex items-center justify-center text-white font-bold" />
+          <BackgroundGradientAnimation>
+            {/* {
+              <div className="absolute z-50 flex items-center justify-center text-white font-bold" />
+            } */}
+          </BackgroundGradientAnimation>
         )}
 
         <div
@@ -120,7 +124,7 @@ export const BentoGridItem = ({
                     {item}
                   </span>
                 ))}
-                <span className="py-4 rounded-lg text-center px-3 bg-[#10132e]" />
+                <span className="py-4 rounded-lg text-center px-3 bg-[#222327]" />
               </div>
               <div className="flex flex-col gap-3 lg:gap-8">
                 <span className="py-4 rounded-lg text-center px-3 bg-[#10132e]" />
